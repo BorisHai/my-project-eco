@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Разделение на две части</title>
+    <link rel="stylesheet" href="programm.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <label for="arrayInput">Введите массив (через запятую):</label>
+        <textarea class="arrInput" id="arrayInput" placeholder="e.g., 1,2,3,4,5"></textarea>
+        <label for="percentInput">Введите процент:</label>
+        <input class="percentInp" id="percentInput" placeholder="например, 20" />
+        <button onclick="calculate()">Вычислить</button>
+      </div>
+
+      <div class="output-container">
+        <div class="column">Ввод</div>
+        <div class="column">Вычисление при %</div>
+        <div class="column">Вычисление при (100 - %)</div>
+      </div>
+
+      <div id="output" class="output-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
