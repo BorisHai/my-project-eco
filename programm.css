@@ -11,6 +11,10 @@ body {
   margin-top: 50px;
 }
 
+.head {
+  color: blueviolet;
+}
+
 .input-container {
   margin-bottom: 20px;
 }
